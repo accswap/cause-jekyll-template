@@ -25,7 +25,6 @@ title: The Sheep Vote
 
 	<ul class="thirds">
 		<li>
-			<div class="image">{% include unsplash.it/570/400?image=1018 icon="economy" %}</div>
 			<h3 class="editable">60 % STAKING</h3>
 			<p class="editable">6 Billions $SQUIZ are allocated for Pools, Staking and Liquidity. </p>
 		</li>
@@ -94,20 +93,26 @@ title: The Sheep Vote
 <div class="darker">
 	<div class="container">
 		<h2 class="editable">Updates</h2>
-		<p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Update</a></p>
-		<div class="posts">
-			{% for post in site.posts %}
-				<div class="post">
-					<div class="image" style="background-image: url({{ post.featured_image}})"></div>
-					<div class="post-content">
-						<p class="date">{{ post.date | date: '%B %d, %Y' }}</p>
-						<h3>{{ post.title }}</h3>
+	<ul class="thirds">
+		<li>
+			<h3 class="editable">60 % STAKING</h3>
+			<p class="editable">6 Billions $SQUIZ are allocated for Pools, Staking and Liquidity. </p>
+		</li>
 
-						{{ post.content }}
-						<p class="editor-link"><a href="cloudcannon:collections/{{ post.path }}" class="btn"><strong>&#9998;</strong> Edit Update</a></p>
-					</div>
-				</div>
-			{% endfor %}
-		</div>
+		<li>
+			<h3 class="editable">35 % QUIS</h3>
+			<p class="editable">3,5 Billion $SQUIZ will be used for Quiz, giveaways, meme challenges, and other marketing tacticts.</p>
+		</li>
+
+		<li>
+			<h3 class="editable">5 % TEAM</h3>
+			<p class="editable">will be for the team.</p>
+		</li>
+
+		<li>
+			<h3 class="editable">10B MAX</h3>
+			<p class="editable">No more minting, 10 Billion $SQUIZ is the Max Supply.</p>
+		</li>
+	</ul>
 	</div>
 </div>
